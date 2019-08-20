@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digitale Akademie</title>
+
+    <!-- meta information -->
+    <meta name="author" content="Torsten Schrade" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" />
+    <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png" />
+
+    <!-- CSS reset and grid -->
+    <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet" />
+    <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+
+    <!-- styles for included libraries -->
+
+    <!-- unite gallery -->
+    <link rel="stylesheet" href="vendor/unitegallery/css/unite-gallery.css" type="text/css" />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="vendor/swiper/swiper.min.css" />
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
+
+    <!-- standard presentation styles -->
+    <link href="resources/css/style.css" rel="stylesheet" />
+
+    <!-- custom presentation styles -->
+    <link href="resources/css/custom.css" rel="stylesheet" />
+
+    <!-- js needed in head -->
+
+    <!-- greuler -->
+    <script src="vendor/d3/d3-3.5.6.js"></script>
+    <script src="vendor/cola/cola.v3.min.js"></script>
+    <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+
+    <!-- html5 dataset shim for IE -->
+    <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>
+            Your browser <strong>doesn't support the features required</strong> by impress.mod.js,
+            so you are presented with a simplified version of this presentation.
+        </p>
+        <p>
+            For the best experience please use the latest <strong>Chrome</strong>, <strong>Safari</strong>
+            or <strong>Firefox</strong> browser.
+        </p>
+    </div>
+
+    <div id="impress">
+
+      <div class="step">
+          <h2 class="down-50">Die Digitale Akademie</h2>
+          <h4 class="red up-25">Digital Humanities Forschungsteam der Mainzer Akademie</h4>
+          <div class="row">
+              <div class="six columns">
+                  <a href="http://www.digitale-akademie.de/" style="position: relative; left: -10px;">
+                      <img src="resources/img/da-logo.png" alt="Logo der Digitalen Akademie" width="100%"/>
+                  </a>
+                  <blockquote class="justify x-small" style="position: relative; top: -20px;">
+                      Das Aufgabenspektrum umfasst die Konzeption, Gestaltung und Realisierung
+                      geisteswissenschaftlicher Applikationen und virtueller Forschungsumgebungen,
+                      die Beratung der Akademie zu allen Aspekten von Digitalisierungsvorhaben sowie
+                      die Projektbegleitung bei der Umsetzung digitaler Komponenten zusammen mit Partnern
+                      aus Wissenschaft und Wirtschaft.<br/>
+                      Gleichzeitig nimmt die Forschung an Kernfragen der Digitalen Geisteswissenschaften
+                      sowie die Lehre und Ausbildung des wissenschaftlichen DH-Nachwuchses einen hohen
+                      Stellenwert ein.
+                  </blockquote>
+                  <p class="x-small">
+                      <a href="http://www.digitale-akademie.de">http://www.digitale-akademie.de</a>
+                  </p>
+              </div>
+              <div class="six columns">
+                  <ul class="small down-50">
+                      <li class="substep">
+                          DH Forschung und DH Anwendungsorientierung
+                      </li>
+                      <li class="substep">
+                          Einbeziehung von Methoden aus der freien Wirtschaft und Softwareindustrie
+                      </li>
+                      <li class="substep">
+                          Team aus Geisteswissenschaftler_innen, Informatiker_innen und Mitarbeiter_innen
+                          mit dualer Qualifikation
+                      </li>
+                      <li class="substep">
+                          Standardisierung, <em>best practices</em>, Nachhaltikgeit
+                      </li>
+                      <li class="substep">
+                          24 Teammitglieder (Wissenschaftliche Mitarbeiter_innen, Trainees, studentische Mitarbeiter_innen)
+                      </li>
+                      <li class="substep">
+                          Akademie ist Gründungsmitglied des Mainzer Zentrums für Digitalität in den Geistes- und Kulturwissenschaften (mainzed)
+                      </li>
+                      <li class="substep">
+                          Aktiv in der DH-Lehre innerhalb des Masterstudiengangs "Digitale Methodik in den Geistes
+                          und Kulturwissenschaften"
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+        <div class="step">
+            <h2>Forschungsgegenstände im Akademienprogramm</h2>
+            <h4 class="red up-25">Geisteswissenschaftliche Grundlagenforschung</h4>
+            <div id="researchdata" style="display:none;">
+                <a href="http://www.regesta-imperii.de/id/0797-03-31_1_0_1_1_0_920_336">
+                    <img alt="Geschichte: Urkunde Karls des Großen von 797"
+                         src="resources/img/forschungsdaten_thumbs_ri.png"
+                         data-image="resources/img/forschungsdaten_ri.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. https://upload.wikimedia.org/wikipedia/commons/b/b1/Dipl%C3%B4me_de_Charlemagne_donn%C3%A9_le_31_mars_797._-_Archives_Nationales_-_AE-II-42.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="https://corpusvitrearum.de/id/F3515">
+                    <img alt="Kunstgeschichte: Glasmalerei"
+                         src="resources/img/forschungsdaten_thumbs_cvma.png"
+                         data-image="resources/img/forschungsdaten_cvma.jpg"
+                         data-description="Rüdiger Tonojan, CVMA Deutschland/Freiburg, CC-BY 4.0 (http://creativecommons.org/licenses/by/4.0/)"
+                         style="display:none">
+                </a>
+
+                <a href="http://nbn-resolving.de/urn:nbn:de:0238-di002mz00k0001208">
+                    <img alt="Epigraphik: Inschrift auf dem Mainzer Domportal"
+                         src="resources/img/forschungsdaten_thumbs_inschriften.png"
+                         data-image="resources/img/forschungsdaten_inschriften.jpg"
+                         data-description="Von Benutzer:Moguntiner - Dieses Foto wurde im Mai 2005 von Benutzer:Moguntiner aufgenommen und ist eine verbesserte Version des Bildes vom 21.03.05, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=23986757"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.controversia-et-confessio.de/cc-digital.html">
+                    <img alt="Theologie: Religiöse Streitschriften"
+                         src="resources/img/forschungsdaten_thumbs_controversia.png"
+                         data-image="resources/img/forschungsdaten_controversia.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. Eber-Epitaph in der Stadtkirche Wittenberg, gemalt von Lucas Cranach d. J. https://commons.wikimedia.org/wiki/File:Weinberg-WB-1569.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.gluck-gesamtausgabe.de/id/1-38-00-0">
+                    <img alt="Musik: Autograph aus Glucks Oper Alceste"
+                         src="resources/img/forschungsdaten_thumbs_gluck.png"
+                         data-image="resources/img/forschungsdaten_gluck.jpg"
+                         data-description="Gemeinfrei. Wikimedia Commons. https://de.wikipedia.org/wiki/Christoph_Willibald_Gluck#/media/File:Christoph_Willibald_Gluck_-_Misero_e_che_far%C3%B2_from_Alceste._%28BL_Zweig_MS_34_f._1r%29.jpg"
+                         style="display:none">
+                </a>
+
+                <a href="http://www.namenforschung.net/id/name/30/1">
+                    <img alt="Linguistik: Kartierte Verteilung des Namens 'Meier'"
+                         src="resources/img/forschungsdaten_thumbs_dfd.png"
+                         data-image="resources/img/forschungsdaten_dfd.jpg"
+                         data-description="Namenforschung.Net"
+                         style="display:none">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jquery -->
+    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+
+    <!-- unite gallery -->
+    <script type="text/javascript" src="vendor/unitegallery/js/unitegallery.min.js"></script>
+    <script type="text/javascript" src="vendor/unitegallery/themes/tiles/ug-theme-tiles.js"></script>
+    <script type="text/javascript" src="resources/js/unite.gallery.js"></script>
+
+    <!-- swiper -->
+    <script src="vendor/swiper/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            hashnav: true
+        });
+    </script>
+
+    <!-- magnific popup -->
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+    <script src="resources/js/magnific-popup.lightbox.js"></script>
+
+    <!-- impress.mod.js -->
+    <script src="vendor/impress/impress.fork.js"></script>
+    <script src="vendor/impress/impress-slidenum.js"></script>
+    <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+
+</body>
+</html>
