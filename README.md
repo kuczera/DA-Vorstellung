@@ -1,15 +1,13 @@
-### 03.08.2017 | Universität Jena
+### 01.09.2019 | Digitale Akademie, Mainz
 
-# Sammlungs- und Editionsportale mit dem Cultural Heritage Framework der Digitalen Akademie
+# Die Digitale Akademie - eine Vorstellung
 
-## Ein Werkstattbericht
+### Andreas Kuczera
 
-### Torsten Schrade
+Die Daten dieser Seite finden sich unter: https://github.com/kuczera/DA-Vorstellung/
 
-Presentation for the workshop "Editionsportale" at the University of Jena (03.-04.08.2017)
+Die Präsentation findet sich unter: https://kuczera.github.io/DA-Vorstellung
 
-The data of this presentation can be found at https://github.com/digicademy/2017-editionsportale-jena
+Die Vorlage wurde übernommen aus: https://github.com/digicademy/2017-editionsportale-jena
 
-The online version of this presentation can be found at https://digicademy.github.io/2017-editionsportale-jena
-
-Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), Torsten Schrade
+Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), Andreas Kuczera
